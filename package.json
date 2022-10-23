@@ -1,5 +1,5 @@
 {
-  "name": "potential-enigma",
+  "name": "readme_homework_challenge_9",
   "version": "1.0.0",
   "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/potential-enigma.git"
+    "url": "git+https://github.com/sbullocks/readme_homework_challenge_9.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/potential-enigma/issues"
+    "url": "https://github.com/sbullocks/readme_homework_challenge_9/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/potential-enigma#readme",
+  "homepage": "https://github.com/sbullocks/readme_homework_challenge_9#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
   }

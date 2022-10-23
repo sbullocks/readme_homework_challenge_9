@@ -48,7 +48,7 @@ const questions = [
     },
     { //If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
         type: 'input',
-        message: 'How do you contribute?',
+        message: 'What are the contribution guidelines?',
         name: 'contribution',
         validate: (value) => {
             if (value) { return true } else { return 'Please enter your contribution guidelines.' }
@@ -60,6 +60,15 @@ const questions = [
         name: 'test',
         validate: (value) => {
             if (value) { return true } else { return 'Please enter your test instructions.' }
+        },
+    },
+    { //The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+        type: 'list',
+        message: 'Choose a license for your project?',
+        choices: ["ISC", "MIT", "Mozilla Public License 2.0"],
+        name: 'license',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please choose a license.' }
         },
     },
     {
@@ -78,15 +87,6 @@ const questions = [
             if (value) { return true } else { return 'Please enter your e-mail address.' }
         },
     },
-    { //The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-        type: 'list',
-        message: 'Choose a license for your project?',
-        choices: ["ISC", "MIT", "Mozilla Public License 2.0"],
-        name: 'license',
-        validate: (value) => {
-            if (value) { return true } else { return 'Please choose a license.' }
-        },
-    },
 ];
 
 
@@ -102,10 +102,11 @@ function writeToFile(fileName, data) {
 };
 
 // TODO: Create a function to initialize app
-function init() 
+function init() {
 inquirer.prompt(questions).then(function (data) {
     writeToFile("README.md", generateMarkdown(data));
 });
+};
 
 // Function call to initialize app
 init();
