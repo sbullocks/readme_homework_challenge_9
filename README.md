@@ -1,5 +1,5 @@
 
-  # Professional Readme Generator
+ # Professional Readme Generator
   ![License Badge](https://img.shields.io/badge/license-MIT-green) 
   ## Description
   Professional README Generator - Node.js Challenge
@@ -7,6 +7,7 @@
   *[Repo](#repo)
   *[Installation](#installation)
   *[Usage](#usage)
+  *[Demo-Video](#demo-video)
   *[Contribution](#contribution)
   *[Test](#test)
   *[License](#license)
@@ -24,7 +25,9 @@
   3. Run node index.js in the terminal. 
   4. Answer the questions generated in the terminal. 
   5. A readme.MD file will be generated with the user user's input.
-  ![screenshot of my README.md code](assetsimagesScreenshot 2022-10-23 133915.png)
+  ![screenshot of my README.md code](./assets/images/readme%20screenshot.png)
+  ## Demo-Video
+  [Walk Through Submission Video](https://drive.google.com/file/d/1a6HU8PZ4kwK3IfJ3oF5biByk-SWcL6p6/view)
   ## Contribution
   If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
   ## Test
