@@ -16,9 +16,12 @@
 function generateMarkdown(data) {
   return `
   # ${data.title}
+
   ![License Badge](https://img.shields.io/badge/license-${data.license}-green) 
+
   ## Description
   ${data.description}
+
   ## Table of Contents:
   *[Repo](#repo) 
   *[Installation](#installation)
@@ -28,21 +31,29 @@ function generateMarkdown(data) {
   *[License](#license)
   *[Username](#username)
   *[Email](#email)
+
   ## Repo
   ${data.repo}
+
   ## Installation
   ${data.installation}
+
   ## Usage
   ${data.usage}
   ![screenshot of my README.md code](assets\images\Screenshot 2022-10-23 133915.png)
+
   ## Contribution
   ${data.contribution}
+
   ## Test
   ${data.test}
+
   ## License
   ${data.license}
+
   ## Username
   ${data.username}
+
   ## Email
   ${data.email}
 `;
