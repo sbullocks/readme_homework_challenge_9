@@ -7,6 +7,7 @@
   Professional README Generator - Node.js Challenge
 
   ## Table of Contents:
+  * [Demo](#demo)
   * [Repo](#repo) 
   * [Installation](#installation)
   * [Usage](#usage)
@@ -15,6 +16,9 @@
   * [License](#license)
   * [Username](#username)
   * [Email](#email)
+
+  ## Demo
+[Click Here to View Walk-Through Video](https://drive.google.com/file/d/1a6HU8PZ4kwK3IfJ3oF5biByk-SWcL6p6/view)
 
   ## Repo
   readme_homework_challenge_9
@@ -25,7 +29,7 @@
   3. Install inquirer module at version 8.2.4.
 
   ## Usage
-  1. Make sure the NPM is connected with the require() function.   
+  1. Make sure the NPM is connected with the require() function. 
   2. Make sure the terminal is set to Bash for Windows users.   
   3. Run node index.js in the terminal.   
   4. Answer the questions generated in the terminal.   
